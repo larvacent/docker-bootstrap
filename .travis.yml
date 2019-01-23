@@ -11,7 +11,8 @@ env:
   - OS_NAME=alpine OS_VERSION=3.8 OS_SUITE=3.8
 #   Centos
   - OS_NAME=centos OS_VERSION=7.3 OS_SUITE=1611
-  - OS_NAME=centos OS_VERSION=7 OS_SUITE=1804
+  - OS_NAME=centos OS_VERSION=7.5 OS_SUITE=1804
+  - OS_NAME=centos OS_VERSION=7.6 OS_SUITE=1810
 #   Ubuntu
   - OS_NAME=ubuntu OS_VERSION=14.04 OS_SUITE=trusty
   - OS_NAME=ubuntu OS_VERSION=16.04 OS_SUITE=xenial

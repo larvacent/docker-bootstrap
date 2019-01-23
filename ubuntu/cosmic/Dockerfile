@@ -1,6 +1,6 @@
 FROM ubuntu:18.10
 
-LABEL maintainer="lezhi2018@gmail.com"
+LABEL maintainer="support@larvacent.com"
 
 ENV TERM="linux" \
 	LANG="C.UTF-8" \

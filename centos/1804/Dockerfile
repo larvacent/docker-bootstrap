@@ -1,6 +1,6 @@
 FROM centos:7.5.1804
 
-LABEL maintainer="lezhi2018@gmail.com"
+LABEL maintainer="support@larvacent.com"
 
 ENV TERM="linux" \
 	LANG="en_US.UTF-8" \

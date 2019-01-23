@@ -1,6 +1,6 @@
 FROM alpine:3.8
 
-LABEL maintainer="lezhi2018@gmail.com"
+LABEL maintainer="support@larvacent.com"
 
 ENV TERM="xterm" \
 	LANG="C.UTF-8" \
