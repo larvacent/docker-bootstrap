@@ -10,7 +10,9 @@ env:
   - OS_NAME=alpine OS_VERSION=3.7 OS_SUITE=3.7
   - OS_NAME=alpine OS_VERSION=3.8 OS_SUITE=3.8
 #   Centos
+  - OS_NAME=centos OS_VERSION=7.2 OS_SUITE=1511
   - OS_NAME=centos OS_VERSION=7.3 OS_SUITE=1611
+  - OS_NAME=centos OS_VERSION=7.4 OS_SUITE=1708
   - OS_NAME=centos OS_VERSION=7.5 OS_SUITE=1804
   - OS_NAME=centos OS_VERSION=7.6 OS_SUITE=1810
 #   Ubuntu
@@ -43,7 +45,7 @@ after_success:
         docker tag $image larvacent/${OS_NAME}:latest;
         docker push larvacent/${OS_NAME}:latest;
       fi;
-      if [[ "${OS_NAME}" == "centos" && "${OS_SUITE}" == "1804" ]]; then
+      if [[ "${OS_NAME}" == "centos" && "${OS_SUITE}" == "1810" ]]; then
         docker tag $image larvacent/${OS_NAME}:latest;
         docker push larvacent/${OS_NAME}:latest;
       fi;
